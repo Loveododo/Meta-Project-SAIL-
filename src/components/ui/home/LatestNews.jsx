@@ -6,17 +6,17 @@ const LatestNews = () => {
     <section className="w-full bg-white py-16 px-6 flex flex-col items-center">
       <div className="max-w-300 w-full mx-auto flex flex-col items-center">
         
-        {/* Section Heading */}
+        
         <h2 className="text-2xl md:text-3xl font-medium text-gray-900 mb-12 text-center">
           The latest from Meta
         </h2>
 
-        {/* Two-Column News Cards Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full mb-16">
           
-          {/* Card 1: Everything We Announced at Meta Connect 2026 */}
+        
           <div className="flex flex-col group cursor-pointer">
-            <div className="w-full h-[320px] rounded-3xl overflow-hidden mb-5 bg-gray-100 shadow-sm">
+            <div className="w-full h-80 rounded-3xl overflow-hidden mb-5 bg-gray-100 shadow-sm">
               <img 
                 src={connectNewsImg} 
                 alt="Everything We Announced at Meta Connect 2026" 
@@ -28,9 +28,9 @@ const LatestNews = () => {
             </h3>
           </div>
 
-          {/* Card 2: Meta's AI Glasses: Your Questions Answered */}
+          
           <div className="flex flex-col group cursor-pointer">
-            <div className="w-full h-[320px] rounded-3xl overflow-hidden mb-5 bg-gray-100 shadow-sm">
+            <div className="w-full h-80 rounded-3xl overflow-hidden mb-5 bg-gray-100 shadow-sm">
               <img 
                 src={aiGlassesNewsImg} 
                 alt="Meta's AI Glasses: Your Questions Answered" 
@@ -44,7 +44,7 @@ const LatestNews = () => {
 
         </div>
 
-        {/* Newsletter Signup Banner */}
+       
         <div className="w-full bg-gray-50 border border-gray-100 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-sm">
           <div className="flex flex-col text-left max-w-md">
             <h4 className="text-lg font-semibold text-gray-900 mb-1">
